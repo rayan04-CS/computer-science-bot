@@ -18,7 +18,7 @@ async def start(message: Message):
     await message.answer(
         "🎓 <b>Computer Science Student Bot</b>\\n\\n"
         "مكتبة قسم علوم الحاسوب 👩🏻‍💻\\n"
-        "اختاري من القائمة:",
+        "اختار من القائمة:",
         reply_markup=home_keyboard(),
         parse_mode="HTML"
     )
